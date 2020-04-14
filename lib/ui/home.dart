@@ -10,7 +10,15 @@ class Home extends StatelessWidget {
         /* width: 192.0,
         height: 96.0, 
         margin: EdgeInsets.only(left:50.0), */
-        child: Text("Pizza", textDirection: TextDirection.ltr,),
+        child: Text(
+          "Pizza",
+          textDirection: TextDirection.ltr,
+          style: TextStyle(
+            fontSize: 80.0,
+            decoration: TextDecoration.none,
+            color: Colors.white,
+          ),
+        ),
       ),
     );
   }
