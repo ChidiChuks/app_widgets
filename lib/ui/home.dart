@@ -123,8 +123,6 @@ class OrderButton extends StatelessWidget {
     );
     showDialog(
         context: context,
-        builder: (BuildContext context) {
-          return alert;
-        });
+        builder: (BuildContext context) => alert );
   }
 }
